@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:text="CRIPTOMOEDAS"
+        android:textSize="16pt"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#d9d919" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="000000"
+            android:orientation="vertical"
+            android:padding="48dp">
+
+            <EditText
+                android:id="@+id/activity_tela_login_edittext_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail"
+                android:padding="18dp"
+                android:textColor="#BFBFBF" />
+
+            <EditText
+                android:id="@+id/activity_tela_login_edittext_senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="senha"
+                android:padding="18dp"
+                android:textColor="#BFBFBF"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="esqueci minha senha"
+                    android:gravity="right"
+                    android:layout_centerVertical="true"
+                    android:padding="1dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <Button
+                    android:id="@+id/activity_tela_login_button_entrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:text="Entrar"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="12dp"
+
+                    />
+
+                <Button
+                    android:id="@+id/activity_tela_login_button_cadastrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:text="Cadastrar"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/activity_tela_login_button_entrar"
+                    android:layout_alignLeft="@id/activity_tela_login_button_entrar"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
