@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigActivity"
+    android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Organzar por:"/>
+
+    <RadioGroup
+        android:id="@+id/activity_config_radiogroup_selecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/activity_config_radiobutton_maiormenorvalor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maior para o menor valor"/>
+        <RadioButton
+            android:id="@+id/activity_config_radiobutton_menormaiorvalor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menor para o menor valor"/>
+        <RadioButton
+            android:id="@+id/activity_config_radiobutton_maiorvalorizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maior valorizacao do dia"/>
+        <RadioButton
+            android:id="@+id/activity_config_radiobutton_menorvalorizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menor valorizacao do dia"/>
+
+    </RadioGroup>
+    <Switch
+        android:id="@+id/activity_config_switch_notificacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habilitar notificações" />
+
+
+
+</LinearLayout>

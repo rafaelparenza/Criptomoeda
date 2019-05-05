@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_menu_realizardeposito_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Realizar deposito:" />
+        <EditText
+            android:id="@+id/activity_menu_edittext_deposito"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/activity_menu_button_confirmardepoisito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/activity_menu_realizardeposito_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Realizar saque    : " />
+        <EditText
+            android:id="@+id/activity_menu_edittext_sacar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/activity_menu_button_confirmarsaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALDO:"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/activity_menu_textview_Valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24pt"
+            android:text="00.00"
+            android:textColor="#FFD100"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
