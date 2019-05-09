@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CECE00"
+    android:background="#084d6e"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     tools:context=".LoginActivity">
@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:paddingTop="10dp"
         android:text="CRIPTOMOEDAS"
-        android:textColor="#909000"
+        android:textColor="#ff0"
         android:textSize="18pt" />
 
 
@@ -27,7 +27,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="000000"
+            android:background="#fff"
             android:orientation="vertical"
             android:padding="48dp">
 
@@ -66,6 +66,7 @@
                 android:padding="18dp">
 
                 <Button
+                    android:id="@+id/activity_login_button_entrar"
                     android:layout_width="196dp"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"

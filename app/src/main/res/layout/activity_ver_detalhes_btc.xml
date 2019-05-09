@@ -35,7 +35,6 @@
         android:background="#A9A9A9"
         android:layout_marginTop="16dp">
 
-        //=========== menu superior =====================
 
         <TextView
             android:id="@+id/activity_verBTC_quantidade_disponivel"
@@ -74,7 +73,6 @@
 
 
 
-    //========== LISTA DE ORDENS FINALIZADAS    ================
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/activity_principal_recycler_view_ordensBTC"

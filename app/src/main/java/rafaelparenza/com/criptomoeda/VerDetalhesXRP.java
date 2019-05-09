@@ -1,9 +1,7 @@
 package rafaelparenza.com.criptomoeda;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -15,7 +13,7 @@ import rafaelparenza.com.criptomoeda.data.XrpDatasourceHelper;
 
 public class VerDetalhesXRP extends AppCompatActivity {
 
-    private RecyclerView xrpRecyclerView;
+   // private RecyclerView xrpRecyclerView;
     private List<Ordens> datasourceOrdensXrp;
     private XrpAdapter xrpAdapter;
 
@@ -30,7 +28,7 @@ public class VerDetalhesXRP extends AppCompatActivity {
         setContentView(R.layout.activity_ver_detalhes_xrp);
 
         //buscar referencias
-        xrpRecyclerView = findViewById(R.id.activity_principal_recycler_view_ordensXRP);
+     //   xrpRecyclerView = findViewById(R.id.activity_principal_recycler_view_ordensXRP);
         precoCompraSugerido = findViewById(R.id.activity_verXRP_preco_comprar);
         precoVendaSugerido = findViewById(R.id.activity_verXRP_preco_vender);
         quantidadeDisponivelNegociacao = findViewById(R.id.activity_verXRP_quantidade_disponivel);
@@ -43,10 +41,10 @@ public class VerDetalhesXRP extends AppCompatActivity {
         xrpAdapter = new XrpAdapter(datasourceOrdensXrp);
 
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+       // LinearLayoutManager layoutManager = new LinearLayoutManager(this);
 
-        xrpRecyclerView.setAdapter(xrpAdapter);
-        xrpRecyclerView.setLayoutManager(layoutManager);
+        //xrpRecyclerView.setAdapter(xrpAdapter);
+        //xrpRecyclerView.setLayoutManager(layoutManager);
 
         //concatenar e dar valor na tela da activity
         precoCompraSugerido.setText("1,31");
