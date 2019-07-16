@@ -13,12 +13,12 @@
 
 
 
-    //===========   quadro SALDO ===============================================
+    <!--===========   quadro SALDO ===============================================-->
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        //===========   BOTÕES ===============================================
+        <!--===========   BOTÕES ===============================================-->
 
         <Button
             android:id="@+id/activity_principal_button_menu"
@@ -40,7 +40,7 @@
             android:layout_alignParentBottom="true"/>
 
 
-        //===========   FIM BOTÕES ===============================================
+        <!--===========   FIM BOTÕES ===============================================-->
 
         <TextView
             android:id="@+id/activity_principal_text_titulo_saldoTotal"
@@ -70,7 +70,7 @@
 
 
 
-    //==============TROCAR POR LISTA  =============
+    <!--==============TROCAR POR LISTA  =============-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
 
     </LinearLayout>
 
-    //===========   quadro BTC ===============================================
+    <!--===========   quadro BTC ===============================================-->
 
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -260,10 +260,8 @@
             android:text="Saldo disponível: R$ " />
 
     </RelativeLayout>
-    //===========   quadro ETH ===============================================
 
 
-    //===========   quadro XRP ===============================================
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -328,7 +326,6 @@
 
 
     </RelativeLayout>
-    //===========   quadro XRP ===============================================
 
 
 </LinearLayout>

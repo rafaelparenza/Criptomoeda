@@ -1,9 +1,7 @@
 package rafaelparenza.com.criptomoeda;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -16,7 +14,7 @@ import rafaelparenza.com.criptomoeda.data.Ordens;
 public class VerDetalhesETH extends AppCompatActivity {
 
 
-    private RecyclerView ethRecyclerView;
+    //private RecyclerView ethRecyclerView;
     private List<Ordens> datasourceOrdensEth;
     private EthAdapter ethAdapter;
 
@@ -32,7 +30,7 @@ public class VerDetalhesETH extends AppCompatActivity {
 
 
         //buscar referencias
-        ethRecyclerView = findViewById(R.id.activity_principal_recycler_view_ordensETH);
+      //  ethRecyclerView = findViewById(R.id.activity_principal_recycler_view_ordensETH);
         precoCompraSugerido = findViewById(R.id.activity_verETH_preco_comprar);
         precoVendaSugerido = findViewById(R.id.activity_verETH_preco_vender);
         quantidadeDisponivelNegociacao = findViewById(R.id.activity_veETH_quantidade_disponivel);
@@ -44,10 +42,10 @@ public class VerDetalhesETH extends AppCompatActivity {
 
         ethAdapter = new EthAdapter (datasourceOrdensEth);
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        /*LinearLayoutManager layoutManager = new LinearLayoutManager(this);
 
         ethRecyclerView.setAdapter(ethAdapter);
-        ethRecyclerView.setLayoutManager(layoutManager);
+        ethRecyclerView.setLayoutManager(layoutManager);*/
 
         //concatenar e dar valor na tela da activity
         precoCompraSugerido.setText("653,99");
